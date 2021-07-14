@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Work in progress on Crisis Communication in Niagara</title>
-    <link>/tags/work-in-progress/</link>
+    <link>https://brockdsl.github.io/archives_unleashed/tags/work-in-progress/</link>
     <description>Recent content in Work in progress on Crisis Communication in Niagara</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</url>
+      <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/work-in-progress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/tags/work-in-progress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Test</title>
-      <link>/posts/papermod/blog_001/</link>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/papermod/blog_001/</guid>
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</guid>
       <description>A test blog.</description>
     </item>
     

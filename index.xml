@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Crisis Communication in Niagara</title>
-    <link>/</link>
+    <link>https://brockdsl.github.io/archives_unleashed/</link>
     <description>Recent content on Crisis Communication in Niagara</description>
     <image>
-      <url>/papermod-cover.png</url>
-      <link>/papermod-cover.png</link>
+      <url>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</url>
+      <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Test</title>
-      <link>/posts/papermod/blog_001/</link>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/papermod/blog_001/</guid>
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</guid>
       <description>A test blog.</description>
     </item>
     
     <item>
       <title>Features</title>
-      <link>/posts/papermod/papermod-features/</link>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/papermod/papermod-features/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>/posts/papermod/papermod-features/</guid>
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/papermod/papermod-features/</guid>
       <description>Get known about All Features in PaperMod</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://brockdsl.github.io/archives_unleashed/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://brockdsl.github.io/archives_unleashed/about/</guid>
       <description>Our goal Using web archives collected by Brock University, this project will examine how organizations in the Niagara region have responded to government COVID-19 mandates. Analysis will focus on investigating three types of entities: local government, non-profit organizations, and major private entities. Findings from this research aim to inform future crisis communication organizational planning, specifically at the local and municipal level. The project will also create several open computational notebooks to support teaching, learning, and research.</description>
     </item>
     
