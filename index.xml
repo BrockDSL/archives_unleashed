@@ -11,21 +11,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog Test</title>
-      <link>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</link>
+      <title>Our first blog</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/wip/blog_001/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://brockdsl.github.io/archives_unleashed/posts/papermod/blog_001/</guid>
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/wip/blog_001/</guid>
       <description>A test blog.</description>
-    </item>
-    
-    <item>
-      <title>Features</title>
-      <link>https://brockdsl.github.io/archives_unleashed/posts/papermod/papermod-features/</link>
-      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://brockdsl.github.io/archives_unleashed/posts/papermod/papermod-features/</guid>
-      <description>Get known about All Features in PaperMod</description>
     </item>
     
     <item>
