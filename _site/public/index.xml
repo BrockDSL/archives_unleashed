@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Crisis Communication in Niagara</title>
+    <link>https://brockdsl.github.io/archives_unleashed/</link>
+    <description>Recent content on Crisis Communication in Niagara</description>
+    <image>
+      <url>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</url>
+      <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 20 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our first blog</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/wip/blog_001/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/wip/blog_001/</guid>
+      <description>A test blog.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://brockdsl.github.io/archives_unleashed/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/about/</guid>
+      <description>Our goal Using web archives collected by Brock University, this project will examine how organizations in the Niagara region have responded to government COVID-19 mandates. Analysis will focus on investigating three types of entities: local government, non-profit organizations, and major private entities. Findings from this research aim to inform future crisis communication organizational planning, specifically at the local and municipal level. The project will also create several open computational notebooks to support teaching, learning, and research.</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>Results</title>
+      <link>https://brockdsl.github.io/archives_unleashed/results/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/results/</guid>
+      <description>We will update this page with in-progress work. We anticipate to have several manuscripts completed by the end of the granting period.</description>
+    </item>
+    
+    
+    
+  </channel>
+</rss>
