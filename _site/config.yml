@@ -9,7 +9,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 enableEmoji: true
-googleAnalytics: UA-128270403-1
+# googleAnalytics: UA-123-45
 
 minify:
     disableXML: true
@@ -42,7 +42,7 @@ outputs:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
-    author:
+    author: 
     # author: ["Me", "You"] # multiple authors
 
     defaultTheme: auto
