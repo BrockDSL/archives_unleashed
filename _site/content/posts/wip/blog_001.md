@@ -6,8 +6,10 @@ series: ["WIP"]
 weight: 1
 aliases: ["/blog_001"]
 tags: ["Work in progress"]
-author: "Cal Murgu"
+author: "Tim Ribaric"
 ---
+
+![Demo Network Map](/images/hosts_snap.png) 
 
 ## Intro
 
