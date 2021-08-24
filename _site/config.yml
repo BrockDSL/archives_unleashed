@@ -1,4 +1,4 @@
-baseURL: "archives_unleashed/"
+baseURL: "/archives_unleashed/"
 title: Crisis Communication in Niagara
 paginate: 5
 theme: PaperMod
