@@ -2,42 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brockdsl.github.io/archives_unleashed/posts/wip/blog_001/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/posts/introduction_to_the_project/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/posts/wip/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/posts/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/posts/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/about/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/series/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/archives.fr/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/tags/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/archives/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/series/wip/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/tags/work-in-progress/</loc>
-    <lastmod>2021-01-20T00:00:00+00:00</lastmod>
+    <loc>/results/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/about/</loc>
+    <loc>/search/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/archives.fr/</loc>
+    <loc>/search.fr/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/archives/</loc>
+    <loc>/series/</loc>
   </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/categories/</loc>
-  </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/results/</loc>
-  </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/search/</loc>
-  </url><url>
-    <loc>https://brockdsl.github.io/archives_unleashed/search.fr/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
