@@ -1,4 +1,11 @@
-#baseURL: "/archives_unleashed/"
+
+
+#Devevlopment
+#baseURL: "archives_unleashed/"
+
+#Live
+baseURL: "https://brockdsl.github.io/archives_unleashed/"
+
 title: Crisis Communication in Niagara
 paginate: 5
 theme: PaperMod

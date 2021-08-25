@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/posts/introduction_to_the_project/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/posts/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/about/</loc>
   </url><url>
-    <loc>/archives.fr/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/archives.fr/</loc>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/archives/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/categories/</loc>
   </url><url>
-    <loc>/results/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/results/</loc>
   </url><url>
-    <loc>/search/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/search/</loc>
   </url><url>
-    <loc>/search.fr/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/search.fr/</loc>
   </url><url>
-    <loc>/series/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/series/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://brockdsl.github.io/archives_unleashed/tags/</loc>
   </url>
 </urlset>
