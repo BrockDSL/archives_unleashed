@@ -17,7 +17,7 @@ This website is dedicated to documenting the progress of the Brock University te
 
 ## Archives Unleashed
 
-[Archives Unleashed](https://archivesunleashed.org/) is a huge collaborative initiative that spans many different universities, governmental organizations, the Internet Archive, and the Andrew W. Mellon Foundation. It's primary mission is to make petabytes of historical internet content accessible to researchers interested in studying the recent past.
+[Archives Unleashed](https://archivesunleashed.org/) is a huge collaborative initiative that spans many different universities, governmental organizations, the Internet Archive, and the Andrew W. Mellon Foundation. Its primary mission is to make petabytes of historical internet content accessible to researchers interested in studying the recent past.
 
 ## Archives Unleashed Cohort program
 
@@ -25,6 +25,6 @@ One of the many projects Archives Unleashed is undertaking is a [Cohort program]
 
 ## Kick off Event
 
-Work officially began in min-July with a start up event where all five groups presented their researcher plans. I encourage you to take a look at our [slides](https://brockdsl.github.io/archives_unleashed/images/AU_Kickoff_Crisis_Summary.pptx) for more details about what we are hoping to tackle. The two day session also included lots of chances for generative discussions about utilizing web archives in research, and a demo of a new tool project teams will be able to use to create derivatives from their larger web archives.
+Work officially began in mid-July with a start up event where all five groups presented their researcher plans. I encourage you to take a look at our [slides](https://brockdsl.github.io/archives_unleashed/images/AU_Kickoff_Crisis_Summary.pptx) for more details about what we are hoping to tackle. The two day session also included lots of chances for generative discussions about utilizing web archives in research, and a demo of a new tool project teams will be able to use to create derivatives from their larger web archives.
 
 Watch this space for more updates as we progress. Next step up is getting our research assistant lined up and preparing for an in-class activity ready for October.
