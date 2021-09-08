@@ -9,7 +9,7 @@
       <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 25 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Sep 2021 16:06:59 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An introduction to the project</title>
       <link>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</link>
@@ -18,6 +18,15 @@
       <guid>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</guid>
       <description>The Project This website is dedicated to documenting the progress of the Brock University team as they work through the Archives Unleashed Cohort program. Over a series of blog posts we are hoping to tell the story of the project and share the outputs of our work.
 Archives Unleashed Archives Unleashed is a huge collaborative initiative that spans many different universities, governmental organizations, the Internet Archive, and the Andrew W. Mellon Foundation.</description>
+    </item>
+    
+    <item>
+      <title>The Dataset</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/the-dataset/</link>
+      <pubDate>Wed, 08 Sep 2021 16:06:59 -0400</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/the-dataset/</guid>
+      <description>A brief overview of the dataset we are using</description>
     </item>
     
     <item>
