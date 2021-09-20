@@ -10,27 +10,39 @@ Using web archives collected by Brock University, this project will examine how 
 ## Project Team
 <div class="row" style="display: flex; margin-left: 5%; font-size: .5em; text-align: center;">
     <div class="col-sm-2">
-    <img class="center-block" style="width: 125px;" src="https://libraryjuiceacademy.com/wp-content/uploads/2020/10/instructor-ribaric.jpg">
+    <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/instructor-ribaric.jpg">
         Tim Ribaric
     </div>
     <div class="col-sm-2">
-    <img class="center-block" src="http://sankeylectures.ca/wp-content/uploads/2013/07/speaker_sharron.jpg">
+    <img class="center-block" src="https://brockdsl.github.io/archives_unleashed/images/speaker_sharron.jpg">
        David Sharron
     </div>
     <div class="col-sm-2">
-<img style="width: 125px;" src="https://ncfcatalyst.com/wp-content/uploads/2020/09/CAL.png">
+<img style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/CAL.png">
 Cal Murgu
 </div>
 <div class="col-sm-2">
-<img style="width: 125px;" src="https://brocku.ca/social-sciences/cpcf/wp-content/uploads/sites/150/CPCF_KLS-option.jpg?x44174">
+<img style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/CPCF_KLS-option.jpg?x44174">
 Karen Louise Smith
 </div>
 <div class="col-sm-2">
 
-<img style="width: 125px;" src="https://brocku.ca/social-sciences/cpcf/wp-content/uploads/sites/150/Koerber-e1600951407323.jpg?x44174">
+<img style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/Koerber-e1600951407323.jpg?x44174">
 Duncan Koerber
 </div>
 </div>
+
+## Research Assistant
+
+<div class="row" style="display: flex; margin-left: 5%; font-size: .5em; text-align: center;">
+    <div class="col-sm-2">
+    <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/vd.jpg">
+        Victoria Danh
+    </div>
+		</div>
+</div>
+
+
 
 ## The Collection
 
