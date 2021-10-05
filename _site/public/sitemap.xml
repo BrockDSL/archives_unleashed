@@ -2,17 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</loc>
-    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://brockdsl.github.io/archives_unleashed/</loc>
-    <lastmod>2021-09-08T16:06:59-04:00</lastmod>
+    <lastmod>2021-10-05T09:00:00-04:00</lastmod>
+  </url><url>
+    <loc>https://brockdsl.github.io/archives_unleashed/posts/crisis-communication-theory/</loc>
+    <lastmod>2021-10-05T09:00:00-04:00</lastmod>
   </url><url>
     <loc>https://brockdsl.github.io/archives_unleashed/posts/</loc>
-    <lastmod>2021-09-08T16:06:59-04:00</lastmod>
+    <lastmod>2021-10-05T09:00:00-04:00</lastmod>
   </url><url>
     <loc>https://brockdsl.github.io/archives_unleashed/posts/the-dataset/</loc>
     <lastmod>2021-09-08T16:06:59-04:00</lastmod>
+  </url><url>
+    <loc>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</loc>
+    <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://brockdsl.github.io/archives_unleashed/about/</loc>
   </url><url>

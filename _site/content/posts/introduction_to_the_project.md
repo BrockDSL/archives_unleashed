@@ -3,7 +3,6 @@ title: "An introduction to the project"
 summary:
 date: 2021-08-25
 #series: ["WIP"]
-weight: 1
 #aliases: ["/blog_001"]
 #tags: ["Work in progress"]
 author: "Tim Ribaric"
