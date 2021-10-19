@@ -32,25 +32,32 @@ Duncan Koerber
 </div>
 </div>
 
-## Research Assistant
+## Research Assistants
 
 <div class="row" style="display: flex; margin-left: 5%; font-size: .5em; text-align: center;">
     <div class="col-sm-2">
     <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/vd.jpg">
         Victoria Danh
     </div>
-		</div>
+    <div class="col-sm-2">
+    <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/fj.jpg">
+        Fletcher Johnson
+    </div>
 </div>
 
-
+<br />
 
 ## The Collection
 
 Datasets used to complete this project will mainly be derived from the [COVID19 in Niagara Web Archive collection](https://archive-it.org/collections/13781). This collection performs a weekly crawl of websites of major institutions, governments and organizations in the Niagara area focusing on the varied responses to the COVID-19 pandemic in 2020. Further, one time crawls of newspaper articles focused on Niagara centric COVID-19 news. It is managed by the Brock University Archives and Special Collections.
 
+<br />
+
 ## Methods
 
 Using Archive-It analysis tools, the team will create derivative files, such as full-text derivates, or url derivates, which will later be explored using other methods. Methods include text analysis techniques, such as sentiment and word frequency/tf-idf analysis, topic modelling to determine topic clusters, and close reading techniques. 
+
+<br />
 
 ## Partners
 
