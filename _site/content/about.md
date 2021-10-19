@@ -40,7 +40,7 @@ Duncan Koerber
         Victoria Danh
     </div>
     <div class="col-sm-2">
-    <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/fj.jpg">
+    <img class="center-block" style="width: 125px;" src="https://brockdsl.github.io/archives_unleashed/images/ft.jpg">
         Fletcher Johnson
     </div>
 </div>
