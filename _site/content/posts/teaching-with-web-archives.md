@@ -26,12 +26,20 @@ The recorded lecture (embedded below) covers the basics of web archives, includi
 
 Following the lecture, students were asked to complete a series of activities to meet the second objective. The first activity invited students to visit the [WayBack machine](https://archive.org/web/) and search for a website that is important to them. To visualize change over time, students had to explore three different snapshots of the same url and describe the changes that they observed in several sentences. As an example, snapshots of the Brock University website from 1999, 2007, and 2013 were shown. 
 
-**IMAGE 1**
+<img alt="brocku.ca circa 1997" src = "https://brockdsl.github.io/archives_unleashed/images/brockuca_circa_1997.png">
+Circa 1997
+<br />
+<br />
 
-**IMAGE 2**
+<img alt="brocku.ca circa 2007" src = "https://brockdsl.github.io/archives_unleashed/images/brockuca_circa_2007.png">
+Circa 2007
+<br />
+<br />
 
-**IMAGE 3**
-
+<img alt="brocku.ca circa 2013" src = "https://brockdsl.github.io/archives_unleashed/images/brockuca_circa_2013.png">
+Circa 2013
+<br />
+<br/>
 Student responses gestured to the interesting information that we can derive from an analysis of how websites can change over time. For instance, a researcher may focus on branding and promotion efforts, or how product launches have changed in relation to the growth of the company.
 
 The second activity asked students to assume the role of an analyst by exploring a computational notebook. The [computational notebook](https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/COMM_4P35_Activity.ipynb) was created in Google Colab by Tim Ribaric. The notebook features a variety of scripts that analyze crawl rates, top urls by crawl frequency, change of text on a page over time, and sentiment analysis using TextBlob. While students did not have to write any code, they had to run code chunks and interpret results, such as graphs and plots. In the concluding section of the notebook, students were asked to change a variable (the url of a page), and reflect on the subsequent analysis. Without question, this activity represented the most challenging task in this module. 
