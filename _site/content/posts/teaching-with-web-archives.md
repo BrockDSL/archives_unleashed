@@ -22,7 +22,7 @@ Lin, J., Milligan, I., Oard, D. W., Ruest, N., and Shilton, K. (2020). [We could
 
 The recorded lecture (embedded below) covers the basics of web archives, including what they are, how they function, and why we should be interested in preserving the web. The lecture is bookended by the #freedaleaskey story, [expertly described by Ian Milligan, Nick Ruest, and Anna St. Onge in their article in Digital Studies](https://www.digitalstudies.org/articles/10.16995/dscn.18/).
 
-<iframe width="665" height="374" src="https://www.youtube.com/watch?v=qwZVEualqqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="665" height="374" src="https://www.youtube.com/embed/qwZVEualqqo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Following the lecture, students were asked to complete a series of activities to meet the second objective. The first activity invited students to visit the [WayBack machine](https://archive.org/web/) and search for a website that is important to them. To visualize change over time, students had to explore three different snapshots of the same url and describe the changes that they observed in several sentences. As an example, snapshots of the Brock University website from 1999, 2007, and 2013 were shown. 
 
