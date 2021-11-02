@@ -1,5 +1,5 @@
 ---
-title: "Archives Unleashed Teaching with Web Archives"
+title: "Teaching with Web Archives"
 summary: "A summary of the in class activity held in conjunction with the project"
 date: 2021-11-02T10:00:00-04:00
 author: "Cal Murgu, Tim Ribaric, Karen Louise-Smith"
