@@ -3,17 +3,17 @@ title: "Results"
 layout: "single"
 ---
 
+## Code and Repositories
 
+[ARCH Data Explore](https://github.com/BrockDSL/ARCH_Data_Explore) - A github repository that has some preliminary data exploration notebooks.
+
+
+
+## In the News
 
 **October 5, 2021**
 
 The web as data: How and why we archive the web [Youtube](https://www.youtube.com/watch?v=qwZVEualqqo)
-
-
-
-<br/>
-
-
 
 **November 9, 2021**
 
