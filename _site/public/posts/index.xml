@@ -9,7 +9,16 @@
       <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 02 Nov 2021 10:00:00 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Nov 2021 09:00:00 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Warclight</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/what-is-warclight/</link>
+      <pubDate>Mon, 29 Nov 2021 09:00:00 -0400</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/what-is-warclight/</guid>
+      <description>An introduction to our use of the Warclight platform</description>
+    </item>
+    
     <item>
       <title>Teaching with Web Archives</title>
       <link>https://brockdsl.github.io/archives_unleashed/posts/teaching-with-web-archives/</link>
