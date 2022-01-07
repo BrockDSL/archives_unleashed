@@ -1,8 +1,8 @@
 ---
-title: "Warclight"
-summary: "An introduction to our use of the Warclight platform"
-date: 2021-11-29T09:00:00-04:00
-author: "Fletcher Johnson"
+title: "Municipal Data with Google Collab"
+summary: "A brief look at some of our data, partially prepped and ready to download"
+date: 2022-01-07T09:00:00-04:00
+author: "Tim Ribaric"
 ---
 
 
