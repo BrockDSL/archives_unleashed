@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Municipal Data with Google Collab | Crisis Communication in Niagara</title>
+<meta name="keywords" content="" />
+<meta name="description" content="A brief look at some of our data, partially prepped and ready to download">
+<meta name="author" content="Tim Ribaric">
+<link rel="canonical" href="https://brockdsl.github.io/archives_unleashed/posts/municipal_data_notebook/" />
+<link crossorigin="anonymous" href="/archives_unleashed/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/archives_unleashed/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://brockdsl.github.io/archives_unleashed/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brockdsl.github.io/archives_unleashed/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brockdsl.github.io/archives_unleashed/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brockdsl.github.io/archives_unleashed/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brockdsl.github.io/archives_unleashed/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.88.1" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-128270403-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta property="og:title" content="Municipal Data with Google Collab" />
+<meta property="og:description" content="A brief look at some of our data, partially prepped and ready to download" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brockdsl.github.io/archives_unleashed/posts/municipal_data_notebook/" /><meta property="og:image" content="https://brockdsl.github.io/archives_unleashed/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-01-07T09:00:00-04:00" />
+<meta property="article:modified_time" content="2022-01-07T09:00:00-04:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://brockdsl.github.io/archives_unleashed/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Municipal Data with Google Collab"/>
+<meta name="twitter:description" content="A brief look at some of our data, partially prepped and ready to download"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "PaperMod",
+      "item": "https://brockdsl.github.io/archives_unleashed/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Municipal Data with Google Collab",
+      "item": "https://brockdsl.github.io/archives_unleashed/posts/municipal_data_notebook/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Municipal Data with Google Collab",
+  "name": "Municipal Data with Google Collab",
+  "description": "A brief look at some of our data, partially prepped and ready to download",
+  "keywords": [
+    
+  ],
+  "articleBody": "With the start of 2022 we’ve finally come to the point where we need to finish collecting our dataset and now start cleaning it up and analyzing it. One of our primary research goals is to see how different municipalities in the Niagara Region communicated COVID information on their webpages during the unfolding crisis. This of course is made possible by the wonderful dataset we are creating.\nEnter Google Colab Google Collabratory is Google’s answer to the Jupyter/IPython notebook. In short it is platform that allows you to create a webpage with embedded code snippets. Since it is build on Google infrastructure it ties in very nicely with Google Accounts, and it offers a Pro option that allows you to tap into more computing power. The great thing about Colab is that you don’t need to install any software on your local machine and sharing your results is as simple as collaborating on a Google Doc. One final thing worth pointing you is that you can save itertions of your notebooks directly to GitHub so they are even more accessible to the web. The Digital Scholarship Lab is a huge fan of sharing everything (data, teaching material, workshops) via GitHub.\nPreliminary Results As mentioned we decided that we would collect our web archive until end of December 2021 so that when we returned for the new year we’d turn our attention to scafolding up our analysis tools. To start with we restricted our dataset to the 14 municipalities in the Niagara regions. Here’s a graph showing how many URLS were captured.\nOnce we narrow down to a city we can drill down even farther to see the details about urls that were harvested. We even calculated some additional metrics on our full-text content:\n Page Length, simply is the number of characters that are in the full-text. When you notice a change to this number that means that content has been added or removed from the page. Sentiment Score, this is a fascinating measure that attempts to quantify the sentiment, or mood expressed, on the page. Specifically we are using the VADER sentiment analysis tool.  Plotting these two values for URL captures in the dataset is very satisfying.\nTry it yourself To no surprise, we have shared the notebook on our Github repository for this project. If you add it directly to your own Colab account you render any of the 14 municipalities data. The notebook offers a download of a constructed CSV file of your dataset. Just follow the badge link to begin: \n",
+  "wordCount" : "423",
+  "inLanguage": "en",
+  "datePublished": "2022-01-07T09:00:00-04:00",
+  "dateModified": "2022-01-07T09:00:00-04:00",
+  "author":{
+    "@type": "Person",
+    "name": "Tim Ribaric"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brockdsl.github.io/archives_unleashed/posts/municipal_data_notebook/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crisis Communication in Niagara",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brockdsl.github.io/archives_unleashed/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brockdsl.github.io/archives_unleashed/" accesskey="h" title="Crisis Communication in Niagara (Alt + H)">Crisis Communication in Niagara</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/archives" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/results" title="Results">
+                    <span>Results</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Municipal Data with Google Collab
+    </h1>
+    <div class="post-meta"><span title='2022-01-07 09:00:00 -0400 -0400'>January 7, 2022</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;Tim Ribaric
+
+</div>
+  </header> 
+  <div class="post-content"><p>With the start of 2022 we&rsquo;ve finally come to the point where we need to finish collecting our dataset and now start cleaning it up and analyzing it. One of our primary research goals is to see how different <a href="https://www.niagararegion.ca/government/municipalities/default.aspx">municipalities</a> in the Niagara Region <a href="https://brockdsl.github.io/archives_unleashed/posts/crisis-communication-theory/">communicated COVID information</a> on their webpages during the unfolding crisis. This of course is made possible by the wonderful <a href="https://brockdsl.github.io/archives_unleashed/posts/the-dataset/">dataset</a> we are creating.</p>
+<p><img loading="lazy" src="https://brockdsl.github.io/archives_unleashed/images/colab.png" alt="Colab Logo"  />
+</p>
+<h2 id="enter-google-colab">Enter Google Colab<a hidden class="anchor" aria-hidden="true" href="#enter-google-colab">#</a></h2>
+<p><a href="https://research.google.com/colaboratory/faq.html">Google Collabratory</a> is Google&rsquo;s answer to the Jupyter/IPython notebook. In short it is platform that allows you to create a webpage with embedded code snippets. Since it is build on Google infrastructure it ties in very nicely with Google Accounts, and it offers a Pro option that allows you to tap into more computing power. The great thing about Colab is that you don&rsquo;t need to install any software on your local machine and sharing your results is as simple as collaborating on a Google Doc. One final thing worth pointing you is that you can save itertions of your notebooks directly to GitHub so they are even more accessible to the web. The Digital Scholarship Lab is a huge fan of sharing everything (data, teaching material, workshops) via <a href="https://github.com/BrockDSL">GitHub</a>.</p>
+<h2 id="preliminary-results">Preliminary Results<a hidden class="anchor" aria-hidden="true" href="#preliminary-results">#</a></h2>
+<p>As mentioned we decided that we would collect our web archive until end of December 2021 so that when we returned for the new year we&rsquo;d turn our attention to scafolding up our analysis tools. To start with we restricted our dataset to the 14 municipalities in the Niagara regions. Here&rsquo;s a graph showing how many URLS were captured.</p>
+<p><img loading="lazy" src="https://brockdsl.github.io/archives_unleashed/images/city_bar.png" alt="City Based Bar Graph"  />
+</p>
+<p>Once we narrow down to a city we can drill down even farther to see the details about urls that were harvested. We even calculated some additional metrics on our full-text content:</p>
+<ul>
+<li><strong>Page Length</strong>, simply is the number of characters that are in the full-text. When you notice a change to this number that means that content has been added or removed from the page.</li>
+<li><strong>Sentiment Score</strong>, this is a fascinating measure that attempts to quantify the <a href="https://en.wikipedia.org/wiki/Sentiment_analysis">sentiment</a>, or mood expressed, on the page. Specifically we are using the <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> sentiment analysis tool.</li>
+</ul>
+<p>Plotting these two values for URL captures in the dataset is <em>very</em> satisfying.</p>
+<p><img loading="lazy" src="https://brockdsl.github.io/archives_unleashed/images/length_graph.png" alt="Page Lengeth Example Graph"  />
+</p>
+<p><img loading="lazy" src="https://brockdsl.github.io/archives_unleashed/images/sentiment_graph.png" alt="Page Lengeth Example Graph"  />
+</p>
+<h2 id="try-it-yourself">Try it yourself<a hidden class="anchor" aria-hidden="true" href="#try-it-yourself">#</a></h2>
+<p>To no surprise, we have shared the notebook on our Github <a href="https://github.com/BrockDSL/ARCH_Data_Explore">repository</a> for this project.
+If you add it directly to your own Colab account you render any of the 14 municipalities data. The notebook offers a download of a constructed <em>CSV</em> file of your dataset. Just follow the badge link to begin:
+<a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Muni_Data_Explore_and_Export.ipynb"><img loading="lazy" src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"  />
+</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://brockdsl.github.io/archives_unleashed/">Crisis Communication in Niagara</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
