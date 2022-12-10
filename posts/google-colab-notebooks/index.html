@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Our Google Colab notebooks | Crisis Communication in Niagara</title>
+<meta name="keywords" content="" />
+<meta name="description" content="An overview of our Google Colab notebooks">
+<meta name="author" content="Fletcher Johnson">
+<link rel="canonical" href="https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/" />
+<link crossorigin="anonymous" href="/archives_unleashed/assets/css/stylesheet.min.c88963fe2d79462000fd0fb1b3737783c32855d340583e4523343f8735c787f0.css" integrity="sha256-yIlj/i15RiAA/Q&#43;xs3N3g8MoVdNAWD5FIzQ/hzXHh/A=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/archives_unleashed/assets/js/highlight.min.b95bacdc39e37a332a9f883b1e78be4abc1fdca2bc1f2641f55e3cd3dabd4d61.js" integrity="sha256-uVus3DnjejMqn4g7Hni&#43;Srwf3KK8HyZB9V4809q9TWE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://brockdsl.github.io/archives_unleashed/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://brockdsl.github.io/archives_unleashed/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://brockdsl.github.io/archives_unleashed/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://brockdsl.github.io/archives_unleashed/apple-touch-icon.png">
+<link rel="mask-icon" href="https://brockdsl.github.io/archives_unleashed/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.108.0">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-128270403-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script><meta property="og:title" content="Our Google Colab notebooks" />
+<meta property="og:description" content="An overview of our Google Colab notebooks" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/" /><meta property="og:image" content="https://brockdsl.github.io/archives_unleashed/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-08T00:00:00-04:00" />
+<meta property="article:modified_time" content="2022-12-08T00:00:00-04:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://brockdsl.github.io/archives_unleashed/papermod-cover.png"/>
+
+<meta name="twitter:title" content="Our Google Colab notebooks"/>
+<meta name="twitter:description" content="An overview of our Google Colab notebooks"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "PaperMod",
+      "item": "https://brockdsl.github.io/archives_unleashed/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Our Google Colab notebooks",
+      "item": "https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Our Google Colab notebooks",
+  "name": "Our Google Colab notebooks",
+  "description": "An overview of our Google Colab notebooks",
+  "keywords": [
+    
+  ],
+  "articleBody": "As the analysis of our web archives collected during the pandemic draws to a close, it is time to share some of the work that we have produced. Instead of analysing the entire 300 GB collection of archives, we have primarily relied on a full text extraction of webpages provided by the ARCH service and trained our focus on a select number of URLs. The number of Google Colab notebooks we now have has grown quite a bit, based on questions posed by Dr. Duncan Koerber and we encourage you to see the entire collection on our Github page. Some of the more interesting work has involved sentiment analysis and text similarity determination of web page content. Other quantitative questions have also been examined in the notebooks to assist Dr. Koerber in his close readings of the texts, such as when vaccines were first mentioned and how often they were discussed, and how often page content was updated.\nMost of our notebooks rely on popular NLP libraries such as spaCy, scikit-learn, nltk, Gensim, and Flair and make use of Pandas and matplotlib for manipulating data. These libraries, especially when used in conjunction with the Colab platform, allowed us to analyze, display, and share data faster and easier than we would have previously been able to. Technology is progress!\nOne question that Dr. Koerber posed early on was whether Covid-19 content was similar among the twelve municipalities analyzed. To answer this, we turned to using a technique called TD-IDF. Here is a picture of this in action from our notebook. The user selects two URLs to compare, and a similarity score is generated. Words are coloured based on their contribution towards similarity, with brighter colored words having greater significance.\nDr. Koerber also wished to determine the sentiment of tweets by Pelham’s mayor Marvin Junkin, as well as the sentiment of the different municipal webpages. The data was analyzed using three different methods: two of which were based on human derived lexicon and rules (TextBlob, VADER) and one of which was machine learning based (DistilBert). Unfortunately, each method produced quite different results and we interpreted this in part because of the specific training set and lexicon chosen for the methods. Dr. Koerber then compared his close readings to the results to determine the method he considered most appropriate for our data.\nAnalyzing the web archives would certainly have been much more challenging if we did not have the ARCH full-text derivatives, the use of Python and its spectacular libraries, and the Google Colab environment. Dealing with duplicated code among our many notebooks, as well as limitations with the Google Colab environment - in comparison to Jupyter-Lab – posed some issues but were positively outweighed by the speed and convenience of using such an environment. Overall, we feel quite lucky to have been chosen as part of the Archives Unleashed 2021 cohort and given the chance to pour over this interesting dataset.\nAnd, here is a sampling of some of the results we have derived and the notebooks in which they are from. Click the image to see it enlarged and click the link to see the notebook in action.\nMonthly average page size over time\rA heatmap of page update counts\rCount of crawls mentioning vaccines\rCrawls per month by municipality\rMean sentiment scores by domain\rTimeline of first mention of the vaccine by municipality\r",
+  "wordCount" : "563",
+  "inLanguage": "en",
+  "datePublished": "2022-12-08T00:00:00-04:00",
+  "dateModified": "2022-12-08T00:00:00-04:00",
+  "author":{
+    "@type": "Person",
+    "name": "Fletcher Johnson"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crisis Communication in Niagara",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://brockdsl.github.io/archives_unleashed/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://brockdsl.github.io/archives_unleashed/" accesskey="h" title="Crisis Communication in Niagara (Alt + H)">Crisis Communication in Niagara</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/about" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/archives" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/results" title="Results">
+                    <span>Results</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://brockdsl.github.io/archives_unleashed/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title">
+      Our Google Colab notebooks
+    </h1>
+    <div class="post-meta"><span title='2022-12-08 00:00:00 -0400 -0400'>December 8, 2022</span>&nbsp;·&nbsp;3 min&nbsp;·&nbsp;Fletcher Johnson
+
+</div>
+  </header> 
+  <div class="post-content"><p>As the analysis of our web archives collected during the pandemic draws to a close, it is time to share some of the work that we have produced. Instead of analysing the entire 300 GB collection of archives, we have primarily relied on a full text extraction of webpages provided by the <a href="https://archivesunleashed.org/arch/">ARCH service</a> and trained our focus on a select number of URLs. The number of Google Colab notebooks we now have has grown quite a bit, based on questions posed by Dr. Duncan Koerber and we encourage you to see the entire collection on our <a href="https://github.com/BrockDSL/ARCH_Data_Explore">Github page</a>. Some of the more interesting work has involved sentiment analysis and text similarity determination of web page content. Other quantitative questions have also been examined in the notebooks to assist Dr. Koerber in his close readings of the texts, such as when vaccines were first mentioned and how often they were discussed, and how often page content was updated.</p>
+<p>Most of our notebooks rely on popular NLP libraries such as spaCy, scikit-learn, nltk, Gensim, and Flair and make use of Pandas and matplotlib for manipulating data. These libraries, especially when used in conjunction with the Colab platform, allowed us to analyze, display, and share data faster and easier than we would have previously been able to. Technology is progress!</p>
+<p>One question that Dr. Koerber posed early on was whether Covid-19 content was similar among the twelve municipalities analyzed. To answer this, we turned to using a technique called <a href="https://en.wikipedia.org/wiki/Tf%E2%80%93idf">TD-IDF</a>. Here is a picture of this in action from our notebook. The user selects two URLs to compare, and a similarity score is generated. Words are coloured based on their contribution towards similarity, with brighter colored words having greater significance.</p>
+<a target="_blank" href="/archives_unleashed/images/tdidf.png">
+  <img src="/archives_unleashed/images/tdidf.png" alt="TD-IDF">
+</a>
+<p>Dr. Koerber also wished to determine the sentiment of tweets by Pelham’s mayor Marvin Junkin, as well as the sentiment of the different municipal webpages. The data was analyzed using three different methods: two of which were based on human derived lexicon and rules (<a href="https://textblob.readthedocs.io/en/dev/">TextBlob</a>, <a href="https://medium.com/@mystery0116/nlp-how-does-nltk-vader-calculate-sentiment-6c32d0f5046b">VADER</a>) and one of which was machine learning based (<a href="https://huggingface.co/docs/transformers/model_doc/distilbert">DistilBert</a>). Unfortunately, each method produced quite different results and we interpreted this in part because of the specific training set and lexicon chosen for the methods. Dr. Koerber then compared his close readings to the results to determine the method he considered most appropriate for our data.</p>
+<p>Analyzing the web archives would certainly have been much more challenging if we did not have the ARCH full-text derivatives, the use of Python and its spectacular libraries, and the Google Colab environment. Dealing with duplicated code among our many notebooks, as well as limitations with the Google Colab environment - in comparison to Jupyter-Lab – posed some issues but were positively outweighed by the speed and convenience of using such an environment. Overall, we feel quite lucky to have been chosen as part of the Archives Unleashed 2021 cohort and given the chance to pour over this interesting dataset.</p>
+<p>And, here is a sampling of some of the results we have derived and the notebooks in which they are from. Click the image to see it enlarged and click the link to see the notebook in action.</p>
+<style>
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+
+div.desc a {
+  color:  blue;
+}
+
+</style>
+<div class="container">
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/monthly_page_size.png">
+      <img src="/archives_unleashed/images/monthly_page_size.png" alt="Monthly average page size" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Municipality_content_size.ipynb">Monthly average page size over time</a>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/heatmap_update_count.png">
+      <img src="/archives_unleashed/images/heatmap_update_count.png" alt="Heatmap of update counts" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Muni_Updates.ipynb">A heatmap of page update counts</a>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/vaccine_mentions.png">
+      <img src="/archives_unleashed/images/vaccine_mentions.png" alt="Count of crawls mentioning vaccines" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Vaccine_mentions_normalized.ipynb">Count of crawls mentioning vaccines</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/crawls_per_month.png">
+      <img src="/archives_unleashed/images/crawls_per_month.png" alt="Crawls per month by municipality" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/CrawlFrequency.ipynb">Crawls per month by municipality</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/avg_sentiment_score.png">
+      <img src="/archives_unleashed/images/avg_sentiment_score.png" alt="Mean sentiment scores by domain" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Average_Sentiment_Scores.ipynb">Mean sentiment scores by domain</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/vaccine_first_mention.png">
+      <img src="/archives_unleashed/images/vaccine_first_mention.png" alt="Timeline of first mention of the vaccine by municipality" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Vaccine_First_Mention.ipynb">Timeline of first mention of the vaccine by municipality</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+
+  <footer class="post-footer">
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2022 <a href="https://brockdsl.github.io/archives_unleashed/">Crisis Communication in Niagara</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

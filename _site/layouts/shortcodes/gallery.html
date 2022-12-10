@@ -1,0 +1,94 @@
+<style>
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . ."
+    ". . .";
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  text-decoration: underline;
+  color: blue;
+}
+
+div.desc a {
+  color:  blue;
+}
+
+</style>
+<div class="container">
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/monthly_page_size.png">
+      <img src="/archives_unleashed/images/monthly_page_size.png" alt="Monthly average page size" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Municipality_content_size.ipynb">Monthly average page size over time</a>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/heatmap_update_count.png">
+      <img src="/archives_unleashed/images/heatmap_update_count.png" alt="Heatmap of update counts" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Muni_Updates.ipynb">A heatmap of page update counts</a>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/vaccine_mentions.png">
+      <img src="/archives_unleashed/images/vaccine_mentions.png" alt="Count of crawls mentioning vaccines" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Vaccine_mentions_normalized.ipynb">Count of crawls mentioning vaccines</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/crawls_per_month.png">
+      <img src="/archives_unleashed/images/crawls_per_month.png" alt="Crawls per month by municipality" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/CrawlFrequency.ipynb">Crawls per month by municipality</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/avg_sentiment_score.png">
+      <img src="/archives_unleashed/images/avg_sentiment_score.png" alt="Mean sentiment scores by domain" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Average_Sentiment_Scores.ipynb">Mean sentiment scores by domain</a>
+    </div>
+  </div>
+  <div class="gallery">
+    <a target="_blank" href="/archives_unleashed/images/vaccine_first_mention.png">
+      <img src="/archives_unleashed/images/vaccine_first_mention.png" alt="Timeline of first mention of the vaccine by municipality" width="600" height="400">
+    </a>
+    <div class="desc">
+      <a href="https://colab.research.google.com/github/BrockDSL/ARCH_Data_Explore/blob/main/Vaccine_First_Mention.ipynb">Timeline of first mention of the vaccine by municipality</a>
+    </div>
+  </div>
+</div>
+
+

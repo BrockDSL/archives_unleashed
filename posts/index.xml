@@ -9,7 +9,16 @@
       <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 08 Jun 2022 23:35:00 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our Google Colab notebooks</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/</link>
+      <pubDate>Thu, 08 Dec 2022 00:00:00 -0400</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/</guid>
+      <description>An overview of our Google Colab notebooks</description>
+    </item>
+    
     <item>
       <title>And just like that…</title>
       <link>https://brockdsl.github.io/archives_unleashed/posts/and_just_like_that/</link>
@@ -71,7 +80,7 @@
       
       <guid>https://brockdsl.github.io/archives_unleashed/posts/introduction_to_the_project/</guid>
       <description>The Project This website is dedicated to documenting the progress of the Brock University team as they work through the Archives Unleashed Cohort program. Over a series of blog posts we are hoping to tell the story of the project and share the outputs of our work.
-Archives Unleashed Archives Unleashed is a huge collaborative initiative that spans many different universities, governmental organizations, the Internet Archive, and the Andrew W. Mellon Foundation.</description>
+Archives Unleashed Archives Unleashed is a huge collaborative initiative that spans many different universities, governmental organizations, the Internet Archive, and the Andrew W.</description>
     </item>
     
   </channel>
