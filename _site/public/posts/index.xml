@@ -9,7 +9,16 @@
       <link>https://brockdsl.github.io/archives_unleashed/papermod-cover.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 08 Dec 2022 00:00:00 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 May 2024 08:38:29 -0400</lastBuildDate><atom:link href="https://brockdsl.github.io/archives_unleashed/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wrapping up the project</title>
+      <link>https://brockdsl.github.io/archives_unleashed/posts/wrapping_up_the_project/</link>
+      <pubDate>Wed, 08 May 2024 08:38:29 -0400</pubDate>
+      
+      <guid>https://brockdsl.github.io/archives_unleashed/posts/wrapping_up_the_project/</guid>
+      <description>A brief look at the final work published for the project</description>
+    </item>
+    
     <item>
       <title>Our Google Colab notebooks</title>
       <link>https://brockdsl.github.io/archives_unleashed/posts/google-colab-notebooks/</link>
